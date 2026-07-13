@@ -1,0 +1,10 @@
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_roles WHERE rolname = 'pep_runtime') THEN
+    CREATE ROLE pep_runtime LOGIN PASSWORD 'pep_runtime_change_me'
+      NOSUPERUSER NOCREATEDB NOCREATEROLE NOINHERIT NOBYPASSRLS;
+  END IF;
+END
+$$;
+
+GRANT CONNECT ON DATABASE pep TO pep_runtime;

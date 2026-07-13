@@ -1,0 +1,13 @@
+{
+  "name": "@pep/security",
+  "version": "2.5.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json"
+  }
+}

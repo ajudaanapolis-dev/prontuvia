@@ -1,0 +1,32 @@
+{
+  "name": "prontuvia",
+  "version": "2.5.0",
+  "private": true,
+  "type": "module",
+  "description": "Prontuvia 2.0 — plataforma clínica FHIR sobre Medplum com gestão brasileira, TISS, financeiro e portal.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace @pep/api",
+    "dev:web": "npm run dev --workspace @pep/web",
+    "dev:clinical": "npm run dev --workspace @prontuvia/clinical",
+    "dev:integrated": "node scripts/dev-integrated.mjs",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:migrate": "node --env-file=.env --import tsx scripts/migrate.ts",
+    "db:bootstrap": "node --env-file=.env --import tsx scripts/bootstrap.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.13",
+    "tsx": "4.23.0",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
+  }
+}

@@ -1,0 +1,345 @@
+/* v1.4.3 — somente tipografia; nenhuma alteração de layout */
+:root {
+  font-family: "Nunito Sans", system-ui, sans-serif;
+  font-feature-settings: "kern", "liga";
+  text-rendering: optimizeLegibility;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Nunito Sans", system-ui, sans-serif;
+}
+body {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #173d46;
+}
+h1,
+h2,
+h3,
+strong,
+b {
+  letter-spacing: -0.018em;
+}
+
+.heading h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+}
+.heading p {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.eyebrow {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.sidebar-brand b {
+  font-size: 17px;
+  font-weight: 800;
+}
+.sidebar-brand span {
+  font-size: 13px;
+  font-weight: 600;
+}
+.sidebar nav button {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.sidebar-note span {
+  font-size: 11.5px;
+}
+.sidebar-note small {
+  font-size: 9.5px;
+}
+
+.search-placeholder {
+  font-size: 13px;
+}
+.profile-trigger b,
+.profile b {
+  font-size: 12px;
+  font-weight: 700;
+}
+.profile-trigger small,
+.profile small {
+  font-size: 10px;
+}
+.profile-popover button {
+  font-size: 12px;
+}
+
+.metric span {
+  font-size: 12px;
+  font-weight: 700;
+}
+.metric strong {
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.metric small {
+  font-size: 10.5px;
+  font-weight: 600;
+}
+.panel-head h2 {
+  font-size: 19px;
+  font-weight: 800;
+}
+.panel-head button {
+  font-size: 11.5px;
+}
+.patient-row b,
+.table-row b {
+  font-size: 13px;
+  font-weight: 700;
+}
+.patient-row small,
+.table-row small {
+  font-size: 10.5px;
+  line-height: 1.45;
+}
+.time-pill {
+  font-size: 11px;
+}
+.status {
+  font-size: 9.5px;
+  font-weight: 800;
+}
+
+.accent h2 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.accent p {
+  font-size: 12.5px;
+  line-height: 1.65;
+}
+.accent small {
+  font-size: 10px;
+}
+.primary-button,
+.secondary-button {
+  font-size: 12px;
+  font-weight: 800;
+}
+.form-message {
+  font-size: 11.5px;
+  line-height: 1.5;
+}
+
+.agenda-toolbar label,
+.agenda-toolbar > span {
+  font-size: 11.5px;
+}
+.agenda-filters label {
+  font-size: 10px;
+}
+.agenda-filters select,
+.date-navigation button,
+.agenda-mode button {
+  font-size: 10.5px;
+}
+.calendar-day b {
+  font-size: 10.5px;
+}
+.calendar-day span {
+  font-size: 9.5px;
+}
+.calendar-event b {
+  font-size: 8.5px;
+}
+.calendar-event small {
+  font-size: 7.5px;
+}
+.appointment-time strong {
+  font-size: 18px;
+}
+.appointment-main b {
+  font-size: 13px;
+}
+.appointment-main span,
+.appointment-main small {
+  font-size: 10.5px;
+}
+
+.table-head {
+  font-size: 9.5px;
+  font-weight: 800;
+}
+.table-row {
+  font-size: 11.5px;
+}
+.table-action,
+.appointment-actions button {
+  font-size: 9.5px;
+  font-weight: 800;
+}
+.record-patients > button {
+  font-size: 11.5px;
+}
+.timeline-heading b {
+  font-size: 12.5px;
+}
+.timeline article small {
+  font-size: 10px;
+}
+.timeline dl {
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+
+.patient-modal h2,
+.document-modal h2,
+.password-modal h2,
+.appointment-details h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.patient-modal label,
+.document-modal label,
+.password-modal label,
+.operation-form label,
+.editor-form label,
+.clinical-section label {
+  font-size: 11px;
+  font-weight: 700;
+}
+.patient-modal input,
+.patient-modal select,
+.patient-modal textarea,
+.document-modal input,
+.document-modal textarea,
+.operation-form input,
+.operation-form select,
+.editor-form textarea,
+.clinical-section textarea {
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+.clinical-editor h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.clinical-tabs button {
+  font-size: 10.5px;
+  font-weight: 800;
+}
+.editor-warning {
+  font-size: 10px;
+  line-height: 1.5;
+}
+.clinical-input input {
+  font-size: 12.5px;
+}
+.consultation-subsection h3 {
+  font-size: 12px;
+}
+
+.document-patients > button {
+  font-size: 11px;
+}
+.document-action-grid b,
+.encounter-document-grid b {
+  font-size: 10px;
+}
+.document-action-grid small,
+.encounter-document-grid small {
+  font-size: 8.5px;
+}
+.document-row b {
+  font-size: 11.5px;
+}
+.document-row small {
+  font-size: 9.5px;
+}
+.operation-form h2 {
+  font-size: 21px;
+  font-weight: 800;
+}
+.operation-form p {
+  font-size: 9.5px;
+  line-height: 1.55;
+}
+.procedure-row b,
+.schedule-row b {
+  font-size: 10.5px;
+}
+.procedure-row small,
+.schedule-row small {
+  font-size: 8.5px;
+}
+
+.report-toolbar h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.report-toolbar p,
+.report-toolbar label {
+  font-size: 9.5px;
+}
+.report-kpis article > span {
+  font-size: 9.5px;
+}
+.report-kpis article > b {
+  font-size: 23px;
+  font-weight: 800;
+}
+.report-kpis article > small {
+  font-size: 8.5px;
+}
+.communication-links span {
+  font-size: 9px;
+}
+.communication-links b {
+  font-size: 12px;
+}
+.communication-links a {
+  font-size: 10px;
+}
+.communication-job b {
+  font-size: 11px;
+}
+.communication-job small {
+  font-size: 8.5px;
+}
+
+.login-card h2 {
+  font-size: 29px;
+  font-weight: 800;
+}
+.login-card > p {
+  font-size: 13px;
+}
+.login-card label {
+  font-size: 11.5px;
+}
+.commercial-intro h1 {
+  font-size: clamp(34px, 4vw, 54px);
+  font-weight: 800;
+}
+.commercial-resources h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@media (max-width: 520px) {
+  .heading h1 {
+    font-size: 27px;
+  }
+  .metric strong {
+    font-size: 27px;
+  }
+}
+/* Prontuvia 2.0 — módulos de gestão avançada */
+.enterprise-suite{display:grid;gap:18px}.module-tabs{display:flex;gap:8px;overflow:auto;padding:4px 0 10px;border-bottom:1px solid #d8e6e5}.module-tabs button{white-space:nowrap;border:0;background:transparent;color:#48666d;padding:9px 13px;border-radius:10px;font-weight:750}.module-tabs button:hover,.module-tabs button.active{background:#e5f7f3;color:#007f75}.enterprise-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.enterprise-kpis article{display:grid;gap:5px;background:#fff;border:1px solid #d8e6e5;border-radius:18px;padding:20px;box-shadow:0 12px 30px rgba(16,73,82,.06)}.enterprise-kpis span{color:#59727a;font-size:.84rem;font-weight:700}.enterprise-kpis b{font-size:1.6rem;color:#123e4a}.enterprise-kpis small{color:#008f83}.integration-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:18px}.integration-grid>div{padding:16px;border-radius:14px;background:#f5faf9}.integration-grid h2{margin:5px 0;font-size:1.05rem}.integration-grid p{margin:0;color:#60787e}.enterprise-columns{display:grid;grid-template-columns:minmax(280px,380px) 1fr;gap:18px;align-items:start}.enterprise-columns .wide{grid-column:1/-1}.enterprise-form{display:grid;gap:12px;padding:20px}.enterprise-form h2{margin:0 0 4px}.enterprise-form p{margin:0;color:#61787f;line-height:1.5}.enterprise-form label{display:grid;gap:6px;color:#264e58;font-size:.8rem;font-weight:750}.enterprise-form input,.enterprise-form select,.enterprise-form textarea{width:100%;border:1px solid #cfdfdf;border-radius:11px;background:#fff;padding:11px 12px;color:#143f49;font:inherit}.enterprise-form textarea{min-height:92px;resize:vertical}.enterprise-form label.check{display:flex;align-items:center;grid-template-columns:auto 1fr}.enterprise-form label.check input{width:auto}.enterprise-list{overflow:hidden}.enterprise-list .panel-head{padding:18px 20px;border-bottom:1px solid #dfe9e8}.enterprise-list .panel-head h2{margin:0}.enterprise-row{display:grid;grid-template-columns:1.1fr 1.3fr 1.2fr .8fr .7fr .7fr;align-items:center;gap:10px;padding:13px 20px;border-bottom:1px solid #eef3f3;color:#587078;font-size:.82rem}.enterprise-row b,.enterprise-row strong{color:#173f4a}.enterprise-row.denial{grid-template-columns:.8fr 2fr .8fr .8fr .8fr}.file-field{border:1px dashed #9fcac5;border-radius:12px;padding:12px!important;background:#f2fbf9;cursor:pointer}.file-field input{margin-top:6px;border:0;padding:0}.medplum-panel{padding:28px;display:grid;gap:18px;max-width:980px}.medplum-panel h2{font-size:1.55rem;margin:0}.integration-state{display:grid;gap:3px;border-left:4px solid #d49b3c;background:#fff7e6;border-radius:10px;padding:14px}.integration-state.connected{border-color:#1faf98;background:#eaf9f5}.medplum-capabilities{display:flex;flex-wrap:wrap;gap:8px}.medplum-capabilities span{background:#e8f6f4;color:#08776e;border-radius:999px;padding:7px 10px;font-size:.78rem;font-weight:750}.medplum-panel code{background:#edf3f3;border-radius:6px;padding:2px 5px}@media(max-width:1000px){.enterprise-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.integration-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.enterprise-columns{grid-template-columns:1fr}.enterprise-row{grid-template-columns:1fr 1fr}.enterprise-row.denial{grid-template-columns:1fr 1fr}}@media(max-width:650px){.enterprise-kpis,.integration-grid{grid-template-columns:1fr}}
+/* v2.0.1 — experiência integrada de teste */
+.clinical-workspace{display:grid;gap:12px;min-height:calc(100vh - 260px)}.clinical-workspace.expanded{position:fixed;inset:18px;z-index:1000;background:#f4f8f8;border-radius:18px;padding:16px;box-shadow:0 30px 90px rgba(4,43,51,.28)}.clinical-workspace-toolbar{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:#fff;border:1px solid #d9e6e5;border-radius:16px;padding:16px 18px}.clinical-workspace-toolbar h2{margin:3px 0;font-size:1.25rem}.clinical-workspace-toolbar p{margin:0;color:#61787f}.clinical-workspace-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}.clinical-workspace-actions button,.clinical-workspace-actions a{border:1px solid #cbdedd;background:#fff;color:#17636a;border-radius:9px;padding:8px 11px;text-decoration:none;font-weight:750;font-size:.78rem}.integration-pill{background:#fff3d9;color:#8a5a00;border-radius:999px;padding:7px 10px;font-size:.75rem;font-weight:800}.integration-pill.online{background:#e1f8f1;color:#087466}.clinical-frame-notice{background:#fff7e5;border:1px solid #edce8d;color:#73500c;border-radius:12px;padding:10px 13px;font-size:.82rem}.clinical-frame{width:100%;min-height:720px;flex:1;border:1px solid #cfdfdf;border-radius:16px;background:#fff}.clinical-workspace.expanded .clinical-frame{min-height:0;height:calc(100vh - 170px)}@media(max-width:850px){.clinical-workspace-toolbar{display:grid}.clinical-workspace-actions{justify-content:flex-start}.clinical-frame{min-height:650px}}

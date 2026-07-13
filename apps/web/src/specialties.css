@@ -1,0 +1,24 @@
+.specialty-list{display:grid;gap:7px;border-top:1px solid #e1e9eb;padding-top:12px}
+.specialty-list>button{display:flex;align-items:center;justify-content:space-between;border:1px solid #dce6ea;border-radius:8px;padding:9px 11px;background:#fff;color:#234b59;text-align:left}
+.specialty-list>button:hover{border-color:#45c2a5;background:#f1fbf8}
+.specialty-list b{font-size:10px}
+.specialty-list small{color:#718095;font-size:8px}
+.professional-services-list{margin-top:16px}
+.booking-card form>label{margin-top:12px}
+.booking-card select:disabled,.booking-card button:disabled{cursor:not-allowed;opacity:.58}
+.booking-link-button{display:block;margin:10px auto 0;border:0;background:transparent;color:#087c67;font-weight:800;text-decoration:underline}
+.available-date-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px;margin-top:12px}
+.available-date-strip>button{display:flex;flex-direction:column;gap:4px;border:1px solid #cfe8e2;border-radius:9px;padding:10px;background:#f2fbf8;color:#234b59;text-align:left}
+.available-date-strip small{color:#58747d;font-size:8px}
+.slot-grid button small{display:block;margin-top:2px;font-size:7px}
+.manage-booking-card{width:min(680px,calc(100% - 28px))}
+.manage-current-booking{display:grid;gap:7px;border:1px solid #cfe8e2;border-radius:11px;padding:16px;background:#f2fbf8}
+.manage-current-booking>span{color:#087c67;font-size:8px;font-weight:900;text-transform:uppercase;letter-spacing:.1em}
+.manage-current-booking h2,.manage-current-booking p{margin:0}
+.reschedule-box{display:grid;grid-template-columns:1fr auto;align-items:end;gap:10px;margin:18px 0}
+.reschedule-box label{display:grid;gap:6px;color:#315966;font-size:9px;font-weight:800}
+.reschedule-box input{height:40px;border:1px solid #d5e1e4;border-radius:8px;padding:0 10px}
+.reschedule-box .secondary-button{margin:0}
+.manage-slot-day{display:grid;gap:8px;border-top:1px solid #e2eaed;padding:12px 0}
+.booking-danger-button{display:block;margin:16px auto 0;border:1px solid #e8baba;border-radius:8px;padding:9px 14px;background:#fff5f5;color:#a13d3d;font-weight:800}
+@media(max-width:560px){.reschedule-box{grid-template-columns:1fr}.reschedule-box .secondary-button{width:100%}}
